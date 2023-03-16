@@ -83,12 +83,9 @@ class MyApp extends StatelessWidget {
                   margin: const EdgeInsets.all(4),
                   padding: const EdgeInsets.all(5),
                   child: ElevatedButton(
-                      onPressed: () {},
-                      child: const Text('SCHEDULE'),
-                      style: ButtonStyle(
-                        backgroundColor: MaterialStateProperty.all<Color>(
-                            const Color.fromARGB(187, 241, 0, 12)),
-                      ))),
+                    onPressed: () {},
+                    child: const Text('SCHEDULE'),
+                  )),
             ),
             Expanded(
               child: Row(
