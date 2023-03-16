@@ -79,15 +79,6 @@ class MyApp extends StatelessWidget {
                   )),
             ),
             Expanded(
-              child: Container(
-                  margin: const EdgeInsets.all(4),
-                  padding: const EdgeInsets.all(5),
-                  child: ElevatedButton(
-                    onPressed: () {},
-                    child: const Text('SCHEDULE'),
-                  )),
-            ),
-            Expanded(
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
                 children: [
@@ -98,7 +89,7 @@ class MyApp extends StatelessWidget {
                         height: 234,
                         child: ElevatedButton(
                             onPressed: () {},
-                            child: const Text('see you##'),
+                            child: const Text('see  sooner##'),
                             style: ButtonStyle(
                               backgroundColor: MaterialStateProperty.all<Color>(
                                   const Color.fromARGB(187, 189, 10, 254)),
