@@ -5,40 +5,42 @@ class HomeBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return ListView(
+      scrollDirection: Axis.horizontal,
+      addAutomaticKeepAlives: false,
       children: [
-        Row(
-          children: [
-            Expanded(
-              child: ElevatedButton(
-                onPressed: () {},
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.transparent,
-                ),
-                child: const Text('get it'),
-              ),
+        Container(
+          margin: const EdgeInsets.only(right: 30, left: 0),
+          width: MediaQuery.of(context).size.width - 45,
+          child: ElevatedButton(
+            onPressed: () {},
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.transparent,
             ),
-            Expanded(
-              child: SizedBox(
-                child: ElevatedButton(
-                  onPressed: () {},
-                  style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.transparent),
-                  child: const Text('get it'),
-                ),
-              ),
+            child: const Text('get it'),
+          ),
+        ),
+        Container(
+          margin: const EdgeInsets.only(right: 30, left: 0),
+          width: MediaQuery.of(context).size.width - 45,
+          child: ElevatedButton(
+            onPressed: () {},
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.transparent,
             ),
-            Expanded(
-              child: SizedBox(
-                child: ElevatedButton(
-                  onPressed: () {},
-                  style: ElevatedButton.styleFrom(
-                      backgroundColor: Colors.transparent),
-                  child: const Text('get it'),
-                ),
-              ),
+            child: const Text('get it'),
+          ),
+        ),
+        Container(
+          margin: const EdgeInsets.only(right: 0, left: 0),
+          width: MediaQuery.of(context).size.width - 45,
+          child: ElevatedButton(
+            onPressed: () {},
+            style: ElevatedButton.styleFrom(
+              backgroundColor: Colors.transparent,
             ),
-          ],
+            child: const Text('get it'),
+          ),
         ),
       ],
     );

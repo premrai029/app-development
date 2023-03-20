@@ -20,7 +20,9 @@ class HomePage extends StatelessWidget {
             width: double.infinity,
           ),
           Container(
-              margin: const EdgeInsets.only(top: kToolbarHeight * 2),
+              padding: const EdgeInsets.all(5),
+              margin: const EdgeInsets.only(
+                  right: 15, left: 15, top: 80, bottom: 80),
               child: const HomeBody()),
         ],
       ),
