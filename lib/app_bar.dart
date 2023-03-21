@@ -17,12 +17,6 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
             // do something when the button is pressed
           },
         ),
-        IconButton(
-          icon: const Icon(Icons.settings),
-          onPressed: () {
-            // do something when the button is pressed
-          },
-        ),
       ],
     );
   }
