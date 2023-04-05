@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
 
-class LogsPageFlscr extends StatelessWidget {
-  const LogsPageFlscr({super.key});
+class ProfileFull extends StatelessWidget {
+  const ProfileFull({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: const Center(child: Text('DE-TECH')),
+        automaticallyImplyLeading: false,
+        backgroundColor: Colors.transparent,
+      ),
       body: ListView(
         children: const [
           ListTile(

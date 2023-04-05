@@ -14,15 +14,16 @@ class HomePage extends StatelessWidget {
       body: Stack(
         children: [
           Image.asset(
-            'assets/images/get.jpg',
+            'assets/images/uio.jpg',
             fit: BoxFit.cover,
             height: double.infinity,
             width: double.infinity,
           ),
           Container(
               padding: const EdgeInsets.all(5),
-              margin: const EdgeInsets.only(
-                  right: 15, left: 15, top: 80, bottom: 80),
+              width: MediaQuery.of(context).size.width - 0,
+              margin:
+                  const EdgeInsets.only(right: 0, left: 0, top: 80, bottom: 80),
               child: const HomeBody()),
         ],
       ),

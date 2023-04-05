@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class ExtraPage extends StatelessWidget {
-  const ExtraPage({super.key});
+class SignUpPage extends StatelessWidget {
+  const SignUpPage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -11,10 +11,10 @@ class ExtraPage extends StatelessWidget {
       child: ElevatedButton(
         onPressed: () {},
         style: ElevatedButton.styleFrom(
-          backgroundColor: Colors.transparent,
+          backgroundColor: const Color.fromARGB(165, 148, 17, 205),
           elevation: 2000,
         ),
-        child: const Text('Extra Page'),
+        child: const Text('SIGN UP'),
       ),
     );
   }

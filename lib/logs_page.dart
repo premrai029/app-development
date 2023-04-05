@@ -25,8 +25,52 @@ class LogsPage extends StatelessWidget {
         },
         style: ElevatedButton.styleFrom(
           backgroundColor: Colors.transparent,
+          elevation: 200,
         ),
-        child: const Text('get it'),
+        child: ListView(
+          children: const [
+            ListTile(
+              leading: Icon(Icons.info),
+              title: Text('Log entry 1'),
+            ),
+            ListTile(
+              leading: Icon(Icons.warning),
+              title: Text('Log entry 2'),
+            ),
+            ListTile(
+              leading: Icon(Icons.error),
+              title: Text('Log entry 3'),
+            ),
+            ListTile(
+              leading: Icon(Icons.info),
+              title: Text('Log entry 4'),
+            ),
+            ListTile(
+              leading: Icon(Icons.warning),
+              title: Text('Log entry 5'),
+            ),
+            ListTile(
+              leading: Icon(Icons.error),
+              title: Text('Log entry 6'),
+            ),
+            ListTile(
+              leading: Icon(Icons.info),
+              title: Text('Log entry 7'),
+            ),
+            ListTile(
+              leading: Icon(Icons.warning),
+              title: Text('Log entry 8'),
+            ),
+            ListTile(
+              leading: Icon(Icons.error),
+              title: Text('Log entry 9'),
+            ),
+            ListTile(
+              leading: Icon(Icons.bubble_chart),
+              title: Text('Find Me!'),
+            ),
+          ],
+        ),
       ),
     );
   }
